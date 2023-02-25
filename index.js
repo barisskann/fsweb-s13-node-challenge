@@ -12,3 +12,11 @@ I need this code, but don't know where, perhaps should make some middleware, don
 
 Pull your server into this file and start it!
 */
+const express = require("express");
+const app = express();
+const server = require("./api/server");
+
+app.use(server);
+app.listen(5000, (req, res, next) => {
+  console.log("PORT LISTENING");
+});

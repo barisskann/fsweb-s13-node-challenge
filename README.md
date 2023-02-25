@@ -35,7 +35,7 @@ Veritabanını orijinal durumuna sıfırlamanıza izin veren bir _"resetdb"_ kom
 - [ ] `[GET] /api/projects/:id`
   - Yanıtın gövdesi olarak belirtilen "id" ile bir proje döndürür.
   - Belirtilen id'ye sahip bir proje yoksa, 404 durum koduyla yanıt verir..
-- [ ] `[POST] /api/projects`
+- [ ] `[POST] 1`
   - Yanıtın gövdesi olarak yeni oluşturulan projeyi döndürür.
   - İstek gövdesinde gerekli alanlardan herhangi biri eksikse, 400 durum koduyla yanıt verir.
 - [ ] `[PUT] /api/projects/:id`
